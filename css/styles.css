@@ -1,0 +1,136 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: turquoise;
+}
+
+
+h3#logo {
+    color: white;
+    font-size: 27px;
+    padding-top: 20px;
+    display: inline;
+    line-height: 52px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+ul#navbar {
+    overflow: auto;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+
+li.nav {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 52px;
+    margin-right: 16px;
+    padding-top: -9px;
+}
+
+main {
+    width: 60%;
+    max-width: 900px;
+    margin: auto;
+}
+
+section#home {
+    background-color: darkblue;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+img#cat-party {
+    width: 60%;
+}
+
+#Meowcome {
+    display: inline-block;
+    float: right;
+    color: white;
+    width: 40%;
+    padding-top: 20px;
+    text-align:center;
+
+}
+
+
+
+section#cats {
+    background-color: orange;
+    padding: 35px 20px;
+    font-size: 20px;
+}
+
+#cats h2 {
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+p.cat-info {
+    margin-bottom: 23px;
+}
+
+section#products {
+    padding: 35px 20px;
+    /* margin-bottom: 35px; */
+    background-color: lightgrey;
+    font-size: 20px;
+}
+
+#products h2 {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#photo-album img {
+    width: 29%;
+    /* float: right; */
+    /* padding: 10px; */
+    margin: 10px;
+    border: 3px solid black;
+}
+
+section#about {
+    background-color: darkblue;
+    padding: 20px 35px;
+}
+
+#about p.cat-info {
+    color: white;
+    /* margin: 30px; */
+    font-size: 20px;
+}
+
+li.latin-headers {
+    float: left;
+    width: 33%;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+ul {
+    /* margin-top: 20px; */
+    line-height: 56px;
+}
+
+p#copyright {
+    float: right;
+    line-height: 63px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: turquoise;
+    overflow: auto;
+}
